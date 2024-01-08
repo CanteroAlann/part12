@@ -1,0 +1,264 @@
+Script started on 2023-12-27 01:15:21-03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="119" LINES="10"]
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;32m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7mdocker run -it ubuntu bash[27m[26D[27md[27mo[27mc[27mk[27me[27mr[27m [27mr[27mu[27mn[27m [27m-[27mi[27mt[27m [27mu[27mb[27mu[27mn[27mt[27mu[27m [27mb[27ma[27ms[27mh[?1l>[?2004l
+]2;docker run -it ubuntu bash]1;dockerdocker: permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/create": dial unix /var/run/docker.sock: connect: permission denied.
+See 'docker run --help'.
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;31m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdocker run -it ubuntu bashsdocker run -it ubuntu bash[26Dsudocker run -it ubuntu bash[26D[1Cdocker run -it ubuntu bash[26Dodocker run -it ubuntu bash[26D docker run -it ubuntu bash[26D[?1l>[?2004l
+]2;sudo docker run -it ubuntu bash]1;docker[sudo] password for alan: 
+Sorry, try again.
+[sudo] password for alan: 
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2Ka48641193673: Pulling fs layer [1B[1A[2Ka48641193673: Downloading [>                                                  ]  311.3kB/29.55MB[1B[1A[2Ka48641193673: Downloading [==>                                                ]  1.539MB/29.55MB[1B[1A[2Ka48641193673: Downloading [=====>                                             ]  3.088MB/29.55MB[1B[1A[2Ka48641193673: Downloading [=======>                                           ]   4.32MB/29.55MB[1B[1A[2Ka48641193673: Downloading [=========>                                         ]  5.557MB/29.55MB[1B[1A[2Ka48641193673: Downloading [===========>                                       ]  6.794MB/29.55MB[1B[1A[2Ka48641193673: Downloading [=============>                                     ]  8.039MB/29.55MB[1B[1A[2Ka48641193673: Downloading [===============>                                   ]  9.284MB/29.55MB[1B[1A[2Ka48641193673: Downloading [=================>                                 ]  10.53MB/29.55MB[1B[1A[2Ka48641193673: Downloading [===================>                               ]  11.76MB/29.55MB[1B[1A[2Ka48641193673: Downloading [=====================>                             ]  12.99MB/29.55MB[1B[1A[2Ka48641193673: Downloading [========================>                          ]  14.22MB/29.55MB[1B[1A[2Ka48641193673: Downloading [==========================>                        ]  15.47MB/29.55MB[1B[1A[2Ka48641193673: Downloading [============================>                      ]  16.71MB/29.55MB[1B[1A[2Ka48641193673: Downloading [==============================>                    ]  17.96MB/29.55MB[1B[1A[2Ka48641193673: Downloading [================================>                  ]  19.19MB/29.55MB[1B[1A[2Ka48641193673: Downloading [==================================>                ]  20.42MB/29.55MB[1B[1A[2Ka48641193673: Downloading [====================================>              ]  21.66MB/29.55MB[1B[1A[2Ka48641193673: Downloading [======================================>            ]  22.89MB/29.55MB[1B[1A[2Ka48641193673: Downloading [========================================>          ]  24.14MB/29.55MB[1B[1A[2Ka48641193673: Downloading [==========================================>        ]  25.38MB/29.55MB[1B[1A[2Ka48641193673: Downloading [=============================================>     ]  26.61MB/29.55MB[1B[1A[2Ka48641193673: Downloading [===============================================>   ]  27.84MB/29.55MB[1B[1A[2Ka48641193673: Downloading [=================================================> ]  29.07MB/29.55MB[1B[1A[2Ka48641193673: Verifying Checksum [1B[1A[2Ka48641193673: Download complete [1B[1A[2Ka48641193673: Extracting [>                                                  ]  327.7kB/29.55MB[1B[1A[2Ka48641193673: Extracting [===>                                               ]  2.294MB/29.55MB[1B[1A[2Ka48641193673: Extracting [======>                                            ]  3.932MB/29.55MB[1B[1A[2Ka48641193673: Extracting [=========>                                         ]  5.898MB/29.55MB[1B[1A[2Ka48641193673: Extracting [============>                                      ]  7.209MB/29.55MB[1B[1A[2Ka48641193673: Extracting [=============>                                     ]  8.192MB/29.55MB[1B[1A[2Ka48641193673: Extracting [================>                                  ]  9.503MB/29.55MB[1B[1A[2Ka48641193673: Extracting [==================>                                ]  11.14MB/29.55MB[1B[1A[2Ka48641193673: Extracting [======================>                            ]  13.43MB/29.55MB[1B[1A[2Ka48641193673: Extracting [===========================>                       ]  16.06MB/29.55MB[1B[1A[2Ka48641193673: Extracting [===============================>                   ]  18.68MB/29.55MB[1B[1A[2Ka48641193673: Extracting [==================================>                ]  20.64MB/29.55MB[1B[1A[2Ka48641193673: Extracting [===================================>               ]  20.97MB/29.55MB[1B[1A[2Ka48641193673: Extracting [=====================================>             ]  22.28MB/29.55MB[1B[1A[2Ka48641193673: Extracting [=======================================>           ]  23.59MB/29.55MB[1B[1A[2Ka48641193673: Extracting [==========================================>        ]   24.9MB/29.55MB[1B[1A[2Ka48641193673: Extracting [===========================================>       ]  25.56MB/29.55MB[1B[1A[2Ka48641193673: Extracting [===========================================>       ]  25.89MB/29.55MB[1B[1A[2Ka48641193673: Extracting [==============================================>    ]   27.2MB/29.55MB[1B[1A[2Ka48641193673: Extracting [===============================================>   ]  28.18MB/29.55MB[1B[1A[2Ka48641193673: Extracting [=================================================> ]  29.16MB/29.55MB[1B[1A[2Ka48641193673: Extracting [=================================================> ]  29.49MB/29.55MB[1B[1A[2Ka48641193673: Extracting [==================================================>]  29.55MB/29.55MB[1B[1A[2Ka48641193673: Pull complete [1BDigest: sha256:6042500cf4b44023ea1894effe7890666b0c5c7871ed83a97c36c76ae560bb9b
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@3e39ee867e03: /root@3e39ee867e03:/# mkdir /usr/src/app
+[?2004l[?2004h]0;root@3e39ee867e03: /root@3e39ee867e03:/# touch [7m/usr/src/app/index.js[27m/usr/src/app/index.js
+[?2004l[?2004h]0;root@3e39ee867e03: /root@3e39ee867e03:/# [Kexit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;32m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker container run -hr elp[1C-help[?1l>[?2004l
+]2;docker container run --help]1;docker
+Usage:  docker container run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+Create and run a new container from an image
+
+Aliases:
+  docker container run, docker run
+
+Options:
+      --add-host list                  Add a custom host-to-IP mapping (host:ip)
+      --annotation map                 Add an annotation to the container (passed through to the OCI runtime)
+                                       (default map[])
+  -a, --attach list                    Attach to STDIN, STDOUT or STDERR
+      --blkio-weight uint16            Block IO (relative weight), between 10 and 1000, or 0 to disable (default 0)
+      --blkio-weight-device list       Block IO weight (relative device weight) (default [])
+      --cap-add list                   Add Linux capabilities
+      --cap-drop list                  Drop Linux capabilities
+      --cgroup-parent string           Optional parent cgroup for the container
+      --cgroupns string                Cgroup namespace to use (host|private)
+                                       'host':    Run the container in the Docker host's cgroup namespace
+                                       'private': Run the container in its own private cgroup namespace
+                                       '':        Use the cgroup namespace as configured by the
+                                                  default-cgroupns-mode option on the daemon (default)
+      --cidfile string                 Write the container ID to the file
+      --cpu-count int                  CPU count (Windows only)
+      --cpu-percent int                CPU percent (Windows only)
+      --cpu-period int                 Limit CPU CFS (Completely Fair Scheduler) period
+      --cpu-quota int                  Limit CPU CFS (Completely Fair Scheduler) quota
+      --cpu-rt-period int              Limit CPU real-time period in microseconds
+      --cpu-rt-runtime int             Limit CPU real-time runtime in microseconds
+  -c, --cpu-shares int                 CPU shares (relative weight)
+      --cpus decimal                   Number of CPUs
+      --cpuset-cpus string             CPUs in which to allow execution (0-3, 0,1)
+      --cpuset-mems string             MEMs in which to allow execution (0-3, 0,1)
+  -d, --detach                         Run container in background and print container ID
+      --detach-keys string             Override the key sequence for detaching a container
+      --device list                    Add a host device to the container
+      --device-cgroup-rule list        Add a rule to the cgroup allowed devices list
+      --device-read-bps list           Limit read rate (bytes per second) from a device (default [])
+      --device-read-iops list          Limit read rate (IO per second) from a device (default [])
+      --device-write-bps list          Limit write rate (bytes per second) to a device (default [])
+      --device-write-iops list         Limit write rate (IO per second) to a device (default [])
+      --disable-content-trust          Skip image verification (default true)
+      --dns list                       Set custom DNS servers
+      --dns-option list                Set DNS options
+      --dns-search list                Set custom DNS search domains
+      --domainname string              Container NIS domain name
+      --entrypoint string              Overwrite the default ENTRYPOINT of the image
+  -e, --env list                       Set environment variables
+      --env-file list                  Read in a file of environment variables
+      --expose list                    Expose a port or a range of ports
+      --gpus gpu-request               GPU devices to add to the container ('all' to pass all GPUs)
+      --group-add list                 Add additional groups to join
+      --health-cmd string              Command to run to check health
+      --health-interval duration       Time between running the check (ms|s|m|h) (default 0s)
+      --health-retries int             Consecutive failures needed to report unhealthy
+      --health-start-period duration   Start period for the container to initialize before starting
+                                       health-retries countdown (ms|s|m|h) (default 0s)
+      --health-timeout duration        Maximum time to allow one check to run (ms|s|m|h) (default 0s)
+      --help                           Print usage
+  -h, --hostname string                Container host name
+      --init                           Run an init inside the container that forwards signals and reaps processes
+  -i, --interactive                    Keep STDIN open even if not attached
+      --io-maxbandwidth bytes          Maximum IO bandwidth limit for the system drive (Windows only)
+      --io-maxiops uint                Maximum IOps limit for the system drive (Windows only)
+      --ip string                      IPv4 address (e.g., 172.30.100.104)
+      --ip6 string                     IPv6 address (e.g., 2001:db8::33)
+      --ipc string                     IPC mode to use
+      --isolation string               Container isolation technology
+      --kernel-memory bytes            Kernel memory limit
+  -l, --label list                     Set meta data on a container
+      --label-file list                Read in a line delimited file of labels
+      --link list                      Add link to another container
+      --link-local-ip list             Container IPv4/IPv6 link-local addresses
+      --log-driver string              Logging driver for the container
+      --log-opt list                   Log driver options
+      --mac-address string             Container MAC address (e.g., 92:d0:c6:0a:29:33)
+  -m, --memory bytes                   Memory limit
+      --memory-reservation bytes       Memory soft limit
+      --memory-swap bytes              Swap limit equal to memory plus swap: '-1' to enable unlimited swap
+      --memory-swappiness int          Tune container memory swappiness (0 to 100) (default -1)
+      --mount mount                    Attach a filesystem mount to the container
+      --name string                    Assign a name to the container
+      --network network                Connect a container to a network
+      --network-alias list             Add network-scoped alias for the container
+      --no-healthcheck                 Disable any container-specified HEALTHCHECK
+      --oom-kill-disable               Disable OOM Killer
+      --oom-score-adj int              Tune host's OOM preferences (-1000 to 1000)
+      --pid string                     PID namespace to use
+      --pids-limit int                 Tune container pids limit (set -1 for unlimited)
+      --platform string                Set platform if server is multi-platform capable
+      --privileged                     Give extended privileges to this container
+  -p, --publish list                   Publish a container's port(s) to the host
+  -P, --publish-all                    Publish all exposed ports to random ports
+      --pull string                    Pull image before running ("always", "missing", "never") (default "missing")
+  -q, --quiet                          Suppress the pull output
+      --read-only                      Mount the container's root filesystem as read only
+      --restart string                 Restart policy to apply when a container exits (default "no")
+      --rm                             Automatically remove the container when it exits
+      --runtime string                 Runtime to use for this container
+      --security-opt list              Security Options
+      --shm-size bytes                 Size of /dev/shm
+      --sig-proxy                      Proxy received signals to the process (default true)
+      --stop-signal string             Signal to stop the container
+      --stop-timeout int               Timeout (in seconds) to stop a container
+      --storage-opt list               Storage driver options for the container
+      --sysctl map                     Sysctl options (default map[])
+      --tmpfs list                     Mount a tmpfs directory
+  -t, --tty                            Allocate a pseudo-TTY
+      --ulimit ulimit                  Ulimit options (default [])
+  -u, --user string                    Username or UID (format: <name|uid>[:<group|gid>])
+      --userns string                  User namespace to use
+      --uts string                     UTS namespace to use
+  -v, --volume list                    Bind mount a volume
+      --volume-driver string           Optional volume driver for the container
+      --volumes-from list              Mount volumes from the specified container(s)
+  -w, --workdir string                 Working directory inside the container
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;32m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m ddocker ps[?1l>[?2004l
+]2;docker ps]1;dockerpermission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json": dial unix /var/run/docker.sock: connect: permission denied
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;31m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hssude o docker ps[?1l>[?2004l
+]2;sudo docker ps]1;dockerCONTAINER ID   IMAGE          COMMAND                  CREATED        STATUS                    PORTS      NAMES
+cede8d2af0e7   redis:latest   "docker-entrypoint.s…"   9 months ago   Up 38 minutes (healthy)   6379/tcp   airflow-redis-1
+f0c7c93b9f5a   postgres:13    "docker-entrypoint.s…"   9 months ago   Up 38 minutes (healthy)   5432/tcp   airflow-postgres-1
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;32m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker constainer       tainer ls -a[?1l>[?2004l
+]2;docker container ls -a]1;dockerpermission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json?all=1": dial unix /var/run/docker.sock: connect: permission denied
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;31m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdocker container ls -asdocker container ls -a[22Dsudocker container ls -a[22D[1Cdocker container ls -a[22Dodocker container ls -a[22D docker container ls -a[22D[?1l>[?2004l
+]2;sudo docker container ls -a]1;dockerCONTAINER ID   IMAGE                  COMMAND                  CREATED         STATUS                        PORTS      NAMES
+3e39ee867e03   ubuntu                 "bash"                   6 minutes ago   Exited (0) 4 minutes ago                 clever_cray
+d05364fe1691   hello-world            "/hello"                 8 minutes ago   Exited (0) 8 minutes ago                 vigorous_einstein
+21c3d644d089   hello-world            "/hello"                 2 hours ago     Exited (0) 2 hours ago                   exciting_fermat
+f767e694ef67   apache/airflow:2.5.2   "/usr/bin/dumb-init …"   9 months ago    Exited (143) 39 minutes ago              airflow-airflow-worker-1
+83f931a71553   apache/airflow:2.5.2   "/usr/bin/dumb-init …"   9 months ago    Exited (143) 39 minutes ago              airflow-airflow-triggerer-1
+a317b3a1d0c9   apache/airflow:2.5.2   "/usr/bin/dumb-init …"   9 months ago    Exited (143) 39 minutes ago              airflow-airflow-scheduler-1
+986faeb0bd8e   apache/airflow:2.5.2   "/usr/bin/dumb-init …"   9 months ago    Exited (143) 39 minutes ago              airflow-airflow-webserver-1
+68fd45d23107   apache/airflow:2.5.2   "/bin/bash -c 'funct…"   9 months ago    Exited (0) 9 months ago                  airflow-airflow-init-1
+cede8d2af0e7   redis:latest           "docker-entrypoint.s…"   9 months ago    Up 40 minutes (healthy)       6379/tcp   airflow-redis-1
+f0c7c93b9f5a   postgres:13            "docker-entrypoint.s…"   9 months ago    Up 40 minutes (healthy)       5432/tcp   airflow-postgres-1
+8fd2ba324059   hello-world            "/hello"                 9 months ago    Exited (0) 9 months ago                  pedantic_mendeleev
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;32m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsudo docker container ls -a[27D[5P[22C     [22Dsudo docker ps        [8D -a[?1l>[?2004l
+]2;sudo docker ps -a]1;dockerCONTAINER ID   IMAGE                  COMMAND                  CREATED         STATUS                        PORTS      NAMES
+3e39ee867e03   ubuntu                 "bash"                   6 minutes ago   Exited (0) 4 minutes ago                 clever_cray
+d05364fe1691   hello-world            "/hello"                 9 minutes ago   Exited (0) 9 minutes ago                 vigorous_einstein
+21c3d644d089   hello-world            "/hello"                 2 hours ago     Exited (0) 2 hours ago                   exciting_fermat
+f767e694ef67   apache/airflow:2.5.2   "/usr/bin/dumb-init …"   9 months ago    Exited (143) 39 minutes ago              airflow-airflow-worker-1
+83f931a71553   apache/airflow:2.5.2   "/usr/bin/dumb-init …"   9 months ago    Exited (143) 39 minutes ago              airflow-airflow-triggerer-1
+a317b3a1d0c9   apache/airflow:2.5.2   "/usr/bin/dumb-init …"   9 months ago    Exited (143) 39 minutes ago              airflow-airflow-scheduler-1
+986faeb0bd8e   apache/airflow:2.5.2   "/usr/bin/dumb-init …"   9 months ago    Exited (143) 39 minutes ago              airflow-airflow-webserver-1
+68fd45d23107   apache/airflow:2.5.2   "/bin/bash -c 'funct…"   9 months ago    Exited (0) 9 months ago                  airflow-airflow-init-1
+cede8d2af0e7   redis:latest           "docker-entrypoint.s…"   9 months ago    Up 40 minutes (healthy)       6379/tcp   airflow-redis-1
+f0c7c93b9f5a   postgres:13            "docker-entrypoint.s…"   9 months ago    Up 40 minutes (healthy)       5432/tcp   airflow-postgres-1
+8fd2ba324059   hello-world            "/hello"                 9 months ago    Exited (0) 9 months ago                  pedantic_mendeleev
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;32m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h  docker start clever_caly   lay[?1l>[?2004l
+]2;docker start clever_clay]1;dockerpermission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/clever_clay/start": dial unix /var/run/docker.sock: connect: permission denied
+Error: failed to start containers: clever_clay
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;31m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h docker start clever_clays        docker start clever_clay[32Dsudo[1C[4C[1C[4P[24C    [28D[?1l>[?2004l
+]2;sudo docker start clever_clay]1;dockerError response from daemon: No such container: clever_clay
+Error: failed to start containers: clever_clay
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;31m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsudo docker start clever_clay[1Cay ray[?1l>[?2004l
+]2;sudo docker start clever_cray]1;dockerclever_cray
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;32m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsudo docker start clever_crayl[2C[29D[4P[25C    [25Dsudo docker ps -a        [8D[?1l>[?2004l
+]2;sudo docker ps -a]1;dockerCONTAINER ID   IMAGE                  COMMAND                  CREATED          STATUS                        PORTS      NAMES
+3e39ee867e03   ubuntu                 "bash"                   8 minutes ago    Up 36 seconds                            clever_cray
+d05364fe1691   hello-world            "/hello"                 11 minutes ago   Exited (0) 11 minutes ago                vigorous_einstein
+21c3d644d089   hello-world            "/hello"                 2 hours ago      Exited (0) 2 hours ago                   exciting_fermat
+f767e694ef67   apache/airflow:2.5.2   "/usr/bin/dumb-init …"   9 months ago     Exited (143) 41 minutes ago              airflow-airflow-worker-1
+83f931a71553   apache/airflow:2.5.2   "/usr/bin/dumb-init …"   9 months ago     Exited (143) 41 minutes ago              airflow-airflow-triggerer-1
+a317b3a1d0c9   apache/airflow:2.5.2   "/usr/bin/dumb-init …"   9 months ago     Exited (143) 41 minutes ago              airflow-airflow-scheduler-1
+986faeb0bd8e   apache/airflow:2.5.2   "/usr/bin/dumb-init …"   9 months ago     Exited (143) 42 minutes ago              airflow-airflow-webserver-1
+68fd45d23107   apache/airflow:2.5.2   "/bin/bash -c 'funct…"   9 months ago     Exited (0) 9 months ago                  airflow-airflow-init-1
+cede8d2af0e7   redis:latest           "docker-entrypoint.s…"   9 months ago     Up 42 minutes (healthy)       6379/tcp   airflow-redis-1
+f0c7c93b9f5a   postgres:13            "docker-entrypoint.s…"   9 months ago     Up 42 minutes (healthy)       5432/tcp   airflow-postgres-1
+8fd2ba324059   hello-world            "/hello"                 9 months ago     Exited (0) 9 months ago                  pedantic_mendeleev
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;32m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker kill airflow-rede is-1[?1l>[?2004l
+]2;docker kill airflow-redis-1]1;dockerpermission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/airflow-redis-1/kill": dial unix /var/run/docker.sock: connect: permission denied
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;31m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdocker kill airflow-redis-1sdocker kill airflow-redis-1[27Dsudocker kill airflow-redis-1[27D[1Cdocker kill airflow-redis-1[27Dodocker kill airflow-redis-1[27D docker kill airflow-redis-1[27D[?1l>[?2004l
+]2;sudo docker kill airflow-redis-1]1;dockerairflow-redis-1
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;32m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsudo docker kill airflow-redis-1[1C[1C[1C[1C[1C[1C[1C-1 -1 -1 -1 -1 p-1o-1s-1t-1g-1r-1e-1s-1[?1l>[?2004l
+]2;sudo docker kill airflow-postgres-1]1;dockerairflow-postgres-1
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;32m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsudo docker kill airflow-postgres-1[1C[1C[1C[1C1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 c1l1e1v1e1r1_1c1r1a1y1[?1l>[?2004l
+]2;sudo docker kill clever_cray1]1;dockerError response from daemon: Cannot kill container: clever_cray1: No such container: clever_cray1
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;31m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsudo docker kill clever_cray1 [?1l>[?2004l
+]2;sudo docker kill clever_cray]1;dockerclever_cray
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;32m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsudo docker kill clever_cray1[12Dairflow-postgres-1[10Dredis-1   [32D[5P[27C     [27Dsudo docker ps -a          [10D[?1l>[?2004l
+]2;sudo docker ps -a]1;dockerCONTAINER ID   IMAGE                  COMMAND                  CREATED          STATUS                        PORTS     NAMES
+3e39ee867e03   ubuntu                 "bash"                   11 minutes ago   Exited (137) 26 seconds ago             clever_cray
+d05364fe1691   hello-world            "/hello"                 13 minutes ago   Exited (0) 13 minutes ago               vigorous_einstein
+21c3d644d089   hello-world            "/hello"                 2 hours ago      Exited (0) 2 hours ago                  exciting_fermat
+f767e694ef67   apache/airflow:2.5.2   "/usr/bin/dumb-init …"   9 months ago     Exited (143) 43 minutes ago             airflow-airflow-worker-1
+83f931a71553   apache/airflow:2.5.2   "/usr/bin/dumb-init …"   9 months ago     Exited (143) 44 minutes ago             airflow-airflow-triggerer-1
+a317b3a1d0c9   apache/airflow:2.5.2   "/usr/bin/dumb-init …"   9 months ago     Exited (143) 43 minutes ago             airflow-airflow-scheduler-1
+986faeb0bd8e   apache/airflow:2.5.2   "/usr/bin/dumb-init …"   9 months ago     Exited (143) 44 minutes ago             airflow-airflow-webserver-1
+68fd45d23107   apache/airflow:2.5.2   "/bin/bash -c 'funct…"   9 months ago     Exited (0) 9 months ago                 airflow-airflow-init-1
+cede8d2af0e7   redis:latest           "docker-entrypoint.s…"   9 months ago     Exited (137) 58 seconds ago             airflow-redis-1
+f0c7c93b9f5a   postgres:13            "docker-entrypoint.s…"   9 months ago     Exited (137) 43 seconds ago             airflow-postgres-1
+8fd2ba324059   hello-world            "/hello"                 9 months ago     Exited (0) 9 months ago                 pedantic_mendeleev
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;32m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsudo docker ps -akill clever_cray1[12Dairflow-postgres-1[10Dredis-1   [32D[5P[27C     [27Dsudo docker ps -a          [10Dstart clever_crayl[2Cr[2C[1C clever_cray[12D- clever_cray[12Di clever_cray[12D[1C clever_cray[12D[?1l>[?2004l
+]2;sudo docker start -i clever_cray]1;docker[?2004h]0;root@3e39ee867e03: /root@3e39ee867e03:/# [K]0;root@3e39ee867e03: /root@3e39ee867e03:/# apt-get update
+[?2004l0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+0% [1 InRelease 4096 B/270 kB 2%] [Connecting to security.ubuntu.com (91.189.91.81)]                                                                                    Get:2 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+                                                                                    0% [1 InRelease 34.0 kB/270 kB 13%] [2 InRelease 3976 B/110 kB 4%]0% [1 InRelease 270 kB/270 kB 100%] [2 InRelease 110 kB/110 kB 99%]                                                                   0% [2 InRelease 110 kB/110 kB 100%]                                   0% [Waiting for headers]                        Get:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+0% [3 InRelease 2548 B/119 kB 2%]                                 0% [Waiting for headers]0% [Waiting for headers]                        Get:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [109 kB]
+0% [4 InRelease 8260 B/109 kB 8%]                                 0% [Working]0% [Waiting for headers]                        Get:5 http://archive.ubuntu.com/ubuntu jammy/restricted amd64 Packages [164 kB]
+0% [5 Packages 9757 B/164 kB 6%] [Waiting for headers]                                                      Get:6 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [17.5 MB]
+0% [6 Packages 69.9 kB/17.5 MB 0%] [Waiting for headers]                                                        Get:7 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [1572 kB]
+0% [6 Packages 75.6 kB/17.5 MB 0%] [7 Packages 18.4 kB/1572 kB 1%]0% [5 Packages store 0 B] [6 Packages 75.6 kB/17.5 MB 0%] [7 Packages 18.4 kB/1572 kB 1%]                                                                                         0% [6 Packages 160 kB/17.5 MB 1%] [7 Packages 55.5 kB/1572 kB 4%]0% [6 Packages 260 kB/17.5 MB 1%] [7 Packages 96.9 kB/1572 kB 6%]19% [6 Packages 1148 kB/17.5 MB 7%] [7 Packages 307 kB/1572 kB 20%]29% [6 Packages 4110 kB/17.5 MB 24%] [7 Packages 1148 kB/1572 kB 73%]                                                                     35% [6 Packages 5572 kB/17.5 MB 32%]35% [7 Packages store 0 B] [6 Packages 5661 kB/17.5 MB 32%]                                                           Get:8 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1326 kB]
+41% [7 Packages store 0 B] [6 Packages 7692 kB/17.5 MB 44%] [8 Packages 6929 B/1326 kB 1%]                                                                                          42% [6 Packages 8040 kB/17.5 MB 46%] [8 Packages 117 kB/1326 kB 9%]                                                                   49% [6 Packages 9102 kB/17.5 MB 52%] [Waiting for headers]                                                          Get:9 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [44.0 kB]
+49% [6 Packages 9102 kB/17.5 MB 52%] [9 Packages 12.9 kB/44.0 kB 29%]49% [8 Packages store 0 B] [6 Packages 9102 kB/17.5 MB 52%] [9 Packages 12.9 kB/44.0 kB 29%]                                                                                            Get:10 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1046 kB]
+52% [8 Packages store 0 B] [6 Packages 10.3 MB/17.5 MB 59%] [10 Packages 158 kB/1046 kB 15%]                                                                                            58% [8 Packages store 0 B] [6 Packages 11.3 MB/17.5 MB 65%]                                                           62% [6 Packages 12.6 MB/17.5 MB 72%]62% [9 Packages store 0 B] [6 Packages 12.6 MB/17.5 MB 72%]                                                           62% [6 Packages 12.6 MB/17.5 MB 72%]63% [10 Packages store 0 B] [6 Packages 12.6 MB/17.5 MB 72%]                                                            69% [6 Packages 14.9 MB/17.5 MB 85%]                                    76% [Waiting for headers]                         Get:11 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [266 kB]
+77% [11 Packages 84.3 kB/266 kB 32%]77% [6 Packages store 0 B] [11 Packages 101 kB/266 kB 38%]                                                          Get:12 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1792 kB]
+77% [6 Packages store 0 B] [12 Packages 80.5 kB/1792 kB 4%]                                                           82% [6 Packages store 0 B] [Waiting for headers]                                                Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1305 kB]
+82% [6 Packages store 0 B] [13 Packages 1187 B/1305 kB 0%]                                                          86% [6 Packages store 0 B]                          Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [49.8 kB]
+86% [6 Packages store 0 B] [14 Packages 8192 B/49.8 kB 16%]                                                           86% [6 Packages store 0 B]                          Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [1602 kB]
+86% [6 Packages store 0 B] [15 Packages 12.3 kB/1602 kB 1%]                                                           90% [6 Packages store 0 B] [Waiting for headers]                                                Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1599 kB]
+90% [6 Packages store 0 B] [16 Packages 20.5 kB/1599 kB 1%]                                                           Get:17 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [50.4 kB]
+                                                           Get:18 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [28.1 kB]
+95% [6 Packages store 0 B] [18 Packages 28.1 kB/28.1 kB 100%]                                                             95% [6 Packages store 0 B]95% [6 Packages store 0 B]95% [6 Packages store 0 B]                          96% [Working]96% [11 Packages store 0 B]                           96% [Working]96% [12 Packages store 0 B]97% [Working]                                                                                             4706 kB/s 0s97% [13 Packages store 0 B]                                                                               4706 kB/s 0s97% [Working]                                                                                             4706 kB/s 0s97% [14 Packages store 0 B]                                                                               4706 kB/s 0s98% [Working]                                                                                             4706 kB/s 0s98% [15 Packages store 0 B]                                                                               4706 kB/s 0s98% [Working]                                                                                             4706 kB/s 0s98% [16 Packages store 0 B]                                                                               4706 kB/s 0s99% [Working]                                                                                             4706 kB/s 0s99% [17 Packages store 0 B]                                                                               4706 kB/s 0s99% [Working]                                                                                             4706 kB/s 0s99% [18 Packages store 0 B]                                                                               4706 kB/s 0s100% [Working]                                                                                            4706 kB/s 0s                                                                                                                      Fetched 28.9 MB in 7s (4361 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 35%Reading package lists... 63%Reading package lists... 63%Reading package lists... 64%Reading package lists... 64%Reading package lists... 70%Reading package lists... 70%Reading package lists... 73%Reading package lists... 77%Reading package lists... 77%Reading package lists... 82%Reading package lists... 82%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 88%Reading package lists... 88%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+[?2004h]0;root@3e39ee867e03: /root@3e39ee867e03:/# apt-get -y install nano
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 36%Reading package lists... 63%Reading package lists... 63%Reading package lists... 64%Reading package lists... 64%Reading package lists... 70%Reading package lists... 70%Reading package lists... 72%Reading package lists... 77%Reading package lists... 77%Reading package lists... 82%Reading package lists... 82%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 88%Reading package lists... 88%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 83%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+Suggested packages:
+  hunspell
+The following NEW packages will be installed:
+  nano
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 280 kB of archives.
+After this operation, 881 kB of additional disk space will be used.
+0% [Working]0% [Waiting for headers]                        Get:1 http://archive.ubuntu.com/ubuntu jammy/main amd64 nano amd64 6.2-1 [280 kB]
+4% [1 nano 12.6 kB/280 kB 4%]31% [1 nano 108 kB/280 kB 39%]                              100% [Working]              Fetched 280 kB in 1s (217 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package nano.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 4393 files and directories currently installed.)
+Preparing to unpack .../archives/nano_6.2-1_amd64.deb ...
+Unpacking nano (6.2-1) ...
+Setting up nano (6.2-1) ...
+update-alternatives: using /bin/nano to provide /usr/bin/editor (editor) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/editor.1.gz because associated file /usr/share/man/man1/nano.1.gz (of link group editor) doesn't exist
+update-alternatives: using /bin/nano to provide /usr/bin/pico (pico) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/pico.1.gz because associated file /usr/share/man/man1/nano.1.gz (of link group pico) doesn't exist
+[?2004h]0;root@3e39ee867e03: /root@3e39ee867e03:/# [7mnano /usr/src/app/index.js[27mnano /usr/src/app/index.js
+[?2004l[?2004h[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;53H(B[0;7m[ Reading... ](B[m[30;52H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 6.2 [36b/usr/src/app/index.js [45b [1;118H(B[m[31d(B[0;7m^G(B[m Help[31;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[31;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[32d(B[0;7m^X(B[m Exit[32;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[32;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[2d[?12l[?25h[?25l[30d[J[32d[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@3e39ee867e03: /root@3e39ee867e03:/# [Kexit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;alan@localhost:~/Documents/part11/part12]1;..part11/part12]7;file://localhost/home/alan/Documents/part11/part12\[0m[27m[24m[J[01;32m➜  [36mpart12[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on 2023-12-27 01:31:12-03:00 [COMMAND_EXIT_CODE="0"]
